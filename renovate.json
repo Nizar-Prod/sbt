@@ -15,5 +15,24 @@
 		"datasources": ["maven", "npm", "pypi", "nuget", "rubygems", "sbt-package"],
 		"updateTypes": ["patch", "minor", "major"],
 		"prBodyColumns": ["Package", "Change", "Age", "Adoption", "Passing", "Confidence"]
-	}]
+	},
+		,
+
+		{
+			"matchConfidence": ["very high"],
+			"groupName": "very high merge confidence"
+		},
+		{
+			"matchConfidence": ["high"],
+			"groupName": "high merge confidence"
+		},
+		{
+			"matchConfidence": ["low"],
+			"groupName": "low merge confidence"
+		},
+		{
+			"matchConfidence": ["neutral"],
+			"groupName": "neutral merge confidence"
+		}
+	]
 }
